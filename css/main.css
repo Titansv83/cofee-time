@@ -6,6 +6,16 @@ body {
 }
 
 /* header */
+.container {
+    max-width: 1360px;
+    padding: 0 40px;
+    margin: 0 auto;
+}
+
 .header {
     padding-top: 20px;
+}
+
+.logo-text {
+    text-transform: uppercase;
 }
