@@ -23,7 +23,25 @@ body {
 
 }
 
-.logo-block ::after {
+.logo-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 6px;
+    text-transform: uppercase;
+
+}
+
+.logo-block::after {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -35,23 +53,5 @@ body {
     background-color: #B0907A;
     border-radius: 50%;
     z-index: -1;
-
-}
-
-.logo-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-.logo-text {
-
-
-
-    font-size: 6px;
-    text-transform: uppercase;
 
 }
